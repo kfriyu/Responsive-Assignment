@@ -1,0 +1,117 @@
+
+    .navtop a{
+  float: left;
+  color:black;
+  text-align: end;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+ 
+  margin-right: 20px;
+  margin-top: 30px;
+    }
+
+    .navtop a:hover{
+        background-color: darkgray;
+        color: black;
+    }
+.logo img{
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+.navtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+  .banner{
+      display: flex;
+      background-color: #f7e1d4;
+  }
+.description{
+    margin-top: 150px;
+    margin-right: 20px;
+}
+.Container{
+    background-color:#f9ebe2;
+    height: 200px;
+}
+.banner{
+    margin-top: 0;
+}
+
+.card-1{
+    margin-top: 70px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+@include media-breakpoint-up(sm) {
+  .card-1{
+    display: block;
+  }
+}
+
+.card-2{
+    margin-top: 70px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+@include media-breakpoint-up(sm) {
+  .card-2 {
+    display: block;
+  }
+}
+    
+.card-3{
+    margin-top: 70px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+@include media-breakpoint-up(sm) {
+  .card-3 {
+    display: block;
+  }
+}
+.others{
+    height: 70px;
+    width: 45%;
+    margin-top: 70px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 25px 25px;
+    margin-bottom: 50px;
+}
+.others-1{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 20%;
+}
+.others-2{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 20%;
+}
+.others-3{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 20%;
+
+}
+.last{
+    display: flex;
+    width:auto
+}
+
+</style>
